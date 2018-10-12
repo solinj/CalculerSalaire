@@ -1,11 +1,14 @@
 import unittest
 import CalculerSalaire as cs
+#si l'expression "from module import *" ne marche pas, écrire "import module"
 
-#méthode d'implémentation de test : module unittest
+#méthode d'implémentation de test : il faut utiliser le module unittest
 # + definition d'une classe de test qui hérite de unittest
 # + utilisation de la méthode assertEqual pour comparer le retour de la fonction appelée et le résultat attendu
 # exécution dans un main en appelant la méthode main sur le module unittest
-class TestsSalaires(unittest.TestCase):
+
+
+class TestsSalaires(unittest.TestCase): #classe qui hérite de unittest
     def test_architecte(self):
         self.assertEqual(cs.calculerSalaire("architecte", 4), 4000)
 

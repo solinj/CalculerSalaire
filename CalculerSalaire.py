@@ -1,3 +1,4 @@
+
 def calculerSalaire(metier, annees):
     if metier == "architecte" and annees == 4:
         return 4000
