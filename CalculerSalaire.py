@@ -6,3 +6,7 @@ def calculerSalaire(metier, annees):
         return 7000
     if metier == "consultant" and annees == 5:
         return 5000
+
+print("Le salaire d'un architecte après 4 années d'expérience est de " + str(calculerSalaire("architecte", 4)))
+print("Le salaire d'un médecin après 8 années d'expérience est de " + str(calculerSalaire("medecin", 8)))
+print("Le salaire d'un consultant après 5 années d'expérience est de " + str(calculerSalaire("consultant", 5)))

@@ -21,3 +21,6 @@ class TestsSalaires(unittest.TestCase): #classe qui hérite de unittest
 
 if __name__ == '__main__':
     unittest.main()
+    # print("Le salaire d'un architecte après 4 années d'expérience est de " + str(cs.calculerSalaire("architecte", 4)))
+    # print("Le salaire d'un médecin après 8 années d'expérience est de " + str(cs.calculerSalaire("medecin", 8)))
+    # print("Le salaire d'un consultant après 5 années d'expérience est de " + str(cs.calculerSalaire("consultant", 5)))
